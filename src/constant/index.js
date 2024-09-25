@@ -51,25 +51,25 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "URL Shortener",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["React", "Tailwind", "Node.js", "MongoDB"],
+      "A URL shortener web application that converts long URLs into short, easy-to-share links. Users can also view the number of times a link has been clicked.",
+    technologies: ["React", "Tailwind", "Node.js", "MongoDB", "Express.js"],
   },
   {
-    title: "Task Management App",
+    title: "Youtube Clone",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "React"],
+      "A user interface similar to YouTube, including features like a video feed, search bar, video player, and sidebar with recommendations, just like the YouTube experience.",
+    technologies: ["React", "Tailwind", "YouTube Data API v3"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwind"],
+    technologies: ["HTML", "CSS", "React", "Tailwind","Framer Motion"],
   },
 ];
 
