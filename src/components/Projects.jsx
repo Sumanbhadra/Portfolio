@@ -39,6 +39,7 @@ const Projects = () => {
               <h3 className="mb-2 font-semibold text-2xl flex justify-between items-center">
                 {" "}
                 <span>{project.title}</span>
+                <span>
                 <a
                   href={project.url}
                   target="_blank"
@@ -46,8 +47,18 @@ const Projects = () => {
                   aria-label="LinkedIn"
                   className="text-sm font-light italic underline"
                 >
-                  Try out
+                  {project.url?"Live":""}
                 </a>
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener norefferrer"
+                  aria-label="github"
+                  className="text-sm font-light italic underline ml-3"
+                >
+                  {project.github?"Github":""}
+                </a>
+                </span>
               </h3>
               <p className="mb-4 text-stone-400">{project.description}</p>
               {project.technologies.map((tech, index) => (

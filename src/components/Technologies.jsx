@@ -1,7 +1,7 @@
 import React from "react";
 import { BiLogoNodejs } from "react-icons/bi";
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
-import { SiExpress, SiMongodb, SiPostman } from "react-icons/si";
+import { SiExpress, SiMongodb, SiPostman, SiSocketdotio } from "react-icons/si";
 import { animate, motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -83,6 +83,14 @@ const Technologies = () => {
           className="p-4"
         >
           <SiPostman className="text-orange-600" />
+        </motion.div>
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(4.5)}
+          className="p-4"
+        >
+          <SiSocketdotio/>
         </motion.div>
       </motion.div>
     </div>
