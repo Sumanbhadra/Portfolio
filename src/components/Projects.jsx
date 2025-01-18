@@ -16,11 +16,12 @@ const Projects = () => {
       <div>
         {PROJECTS.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
-            <motion.div 
-             whileInView={{ opacity: 1, x: 0 }}
-             initial={{ opacity: 0, x: -100 }}
-             transition={{ duration: 1}}
-            className="w-full lg:w-1/4">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 1 }}
+              className="w-full lg:w-1/4"
+            >
               <img
                 src={project.image}
                 alt={project.title}
@@ -29,12 +30,25 @@ const Projects = () => {
                 className="mb-6 rounded"
               />
             </motion.div>
-            <motion.div 
-             whileInView={{ opacity: 1, x: 0 }}
-             initial={{ opacity: 0, x: 100 }}
-             transition={{ duration: 1.5 }}
-            className="w-full max-w-xl lg:w-3/4 ml-2">
-              <h3 className="mb-2 font-semibold text-2xl"> {project.title}</h3>
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 1.5 }}
+              className="w-full max-w-xl lg:w-3/4 ml-2"
+            >
+              <h3 className="mb-2 font-semibold text-2xl flex justify-between items-center">
+                {" "}
+                <span>{project.title}</span>
+                <a
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener norefferrer"
+                  aria-label="LinkedIn"
+                  className="text-sm font-light italic underline"
+                >
+                  Try out
+                </a>
+              </h3>
               <p className="mb-4 text-stone-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span

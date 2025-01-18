@@ -1,11 +1,11 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import shorturl from "../assets/projects/Mini_URL.png";
+import metube from "../assets/projects/metube.png";
+import logoWhite from "../assets/logoWhite.webp";
 
 import college from "../assets/college1.png";
 import highSec from "../assets/high-sec.png";
 import school from "../assets/school.png";
+
 
 export const HERO_CONTENT = `Highly motivated and results-oriented B. Tech student with a strong foundation in programming and a passion for crafting
 efficient, scalable software & web solutions. Finalist in the prestigious Smart India Hackathon, demonstrating exceptional problemsolving and teamwork skills.
@@ -51,30 +51,33 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "URL Shortener",
-    image: project1,
-    description:
-      "A URL shortener web application that converts long URLs into short, easy-to-share links. Users can also view the number of times a link has been clicked.",
-    technologies: ["React", "Tailwind", "Node.js", "MongoDB", "Express.js"],
-  },
-  {
     title: "Youtube Clone",
-    image: project2,
+    image: metube,
     description:
       "A user interface similar to YouTube, including features like a video feed, search bar, video player, and sidebar with recommendations, just like the YouTube experience.",
     technologies: ["React", "Tailwind", "YouTube Data API v3"],
+    url: "https://metube-lite.netlify.app/",
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: logoWhite,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwind","Framer Motion"],
+    technologies: ["HTML", "CSS", "React", "Tailwind", "Framer Motion"],
+    url: "https://sumanbhadra.netlify.app/",
+  },
+  {
+    title: "URL Shortener",
+    image: shorturl,
+    description:
+      "A URL shortener web application that converts long URLs into short, easy-to-share links. Users can also view the number of times a link has been clicked.",
+    technologies: ["React", "Tailwind", "Node.js", "MongoDB", "Express.js"],
+    url: "",
   },
 ];
 
 export const CONTACT = {
   address: "Kolkata, West Bengal, India, 700113",
-  phoneNo: "+91 8292 871 422 ",
-  email: "sumanbhadra04@outlook.com",
+  phoneNo: "+91 629 189 8703 ",
+  email: "bhadrasuman04@gmail.com",
 };
