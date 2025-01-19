@@ -91,7 +91,7 @@ export const PROJECTS = [
       "A URL shortener web application that converts long URLs into short, easy-to-share links. Users can also view the number of times a link has been clicked.",
     technologies: ["React", "Tailwind", "Node.js", "MongoDB", "Express.js"],
     url: "",
-    github: "",
+    github: "https://github.com/Sumanbhadra/URL-Shortner",
   },
 ];
 

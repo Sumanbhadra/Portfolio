@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/logoWhite.webp";
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Navbar = () => {
@@ -28,6 +28,14 @@ const Navbar = () => {
           aria-label="Github"
         >
           <FaGithub />
+        </a>
+        <a
+          href="https://youtube.com/@bhadrajee?si=3hFQ2Qq5MO0JYDFI"
+          target="_blank"
+          rel="noopener norefferrer"
+          aria-label="YouTube"
+        >
+          <FaYoutube/>
         </a>
         <a
           href="https://www.instagram.com/bhadra.suman_/"
