@@ -87,7 +87,7 @@ const Technologies = () => {
         <motion.div
           initial="initial"
           animate="animate"
-          variants={iconVariants(4.5)}
+          variants={iconVariants(5)}
           className="p-4"
         >
           <SiSocketdotio/>
