@@ -81,7 +81,7 @@ export const PROJECTS = [
       "Socket.io",
       "Canvas API",
     ],
-    url: "",
+    url: "https://skecho.netlify.app/",
     github: "https://github.com/Sumanbhadra/Skecho",
   },
   {
